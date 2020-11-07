@@ -1,0 +1,443 @@
+
+/*iPhone 6/7/8 */
+
+
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+html{
+    width: 375px;
+}
+body{
+    width: 375px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 375px;
+}
+
+
+.logo{
+    width: 100px;
+    height: 33px;
+    margin: 33px 0 0 20px;
+    object-fit: cover;
+}
+#sign{
+    width: 68px;
+    left:77%;
+    font-weight: 900; 
+    font-size: 18px;
+    margin-top: -60px;
+    padding: none;
+    border: none;
+    color: dodgerblue;
+    cursor: pointer;
+    position: absolute;
+}
+.menu{
+    margin-top: 30px;
+    padding-bottom: 34px;
+    border-bottom: 2px solid lightgray;
+    list-style: none;
+}
+.Accomodation{
+    font-family: 'Raleway', sans-serif;
+    right: 52%;
+    padding: 0px 30px 26px 50px;
+    position: absolute;
+}
+.Activity{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    left: 48%;
+    padding: 0px 38px 26px 92px;
+    position: absolute;
+}
+.menu a{   
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    padding-bottom: 15px;
+    border-bottom: 2px solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+
+
+h4{
+    width: 265px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 55px;
+
+}
+.Downtown{
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 20px;
+    top: 33%;
+    color: dimgrey;
+}
+
+.search-btn{
+    margin-left: 20px;
+}
+input[type="text"]
+{
+    width: 18.68em;
+    height: 3.10em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    border: 1px solid lightgray;
+    border-left: none;
+    outline: none;
+}
+input[type="submit"]
+{
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.search-btn>span{
+    width: 48px;
+    height: 46px;
+    right: 9%;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: dodgerblue;
+    line-height: 44px;
+    position: absolute;
+}
+#search-btn-phone{
+    color: white;
+    position: absolute;
+}
+i{
+    width: 1.95em;
+    height: 1.85em;
+    text-align: center;
+    padding: 14px 5px 0 8px;
+    border: 1px solid lightgray;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    background: #F5F1F1;
+    float: left;
+}
+
+
+.title-filters{
+    font-weight: bolder;
+    margin: 30px 0 13px -17px;
+}
+.filters-boxes-list{
+    width: 305px;
+    height: 200px;
+    list-style: none;
+}
+.filters-boxes-list a{
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: -17px;
+    color: black;
+    line-height: 40px;
+}
+.filters-boxes-list .low-cost{
+    text-decoration: none;
+    padding-right: 18px;
+    border: 2px solid #F1E7E7;
+    border-radius: 50px;
+    color: black;
+    transition: 0.8s;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.filters-boxes-list .romantic{
+    text-decoration: none;
+    padding-right: 27px;
+    border: 2px solid #F1E7E7;
+    border-radius: 50px;
+    color: black;
+    transition: 0.8s;
+    float: right;
+    position: absolute;
+    overflow: hidden;
+    left: 53%;
+}
+.filters-boxes-list .family-friendly{
+    text-decoration: none;
+    margin-top: 5px;
+    padding-right: 20px;
+    border: 2px solid #F1E7E7;
+    border-radius: 50px;
+    color: black;
+    transition: 0.8s;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.filters-boxes-list .pets-allowed{
+    text-decoration: none;
+    margin-top: 10px;
+    padding-right: 50px;
+    border: 2px solid #F1E7E7;
+    border-radius: 50px;
+    color: black;
+    transition: 0.8s;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.filters-boxes-list i{
+    margin-right: 10px;
+    border-radius: 35px;
+    color: dodgerblue;
+    background: lightblue;
+}
+.low-cost:hover, .family-friendly:hover, .romantic:hover, .pets-allowed:hover{
+    color: black;
+}
+.low-cost::before, .family-friendly::before, .romantic::before, .pets-allowed::before{
+    width: 100%;
+    height: 0%;
+    left: 0;
+    content: "";
+    background: #F1E7E7;
+    z-index: -1;
+    transition: 0.8s;
+    position: absolute;
+}
+.low-cost::before, .family-friendly::before, .romantic::before, .pets-allowed::before{
+    bottom:0;
+    border-radius: 40px;
+}
+.low-cost:hover::before, .family-friendly:hover::before, .romantic:hover::before, .pets-allowed:hover::before{
+    height: 100%;
+}
+
+.info{
+    margin: 30px 0 0 27px;
+}
+.info div{
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+    margin: -20px 0 0 20px;
+    color: dimgrey;
+}
+.info span{
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+
+
+h1{
+    font-size:20px;
+    margin-left:25px;
+}
+.popular{
+    width:375px;
+    height:554px;    
+    top: 93%;
+    margin-top: 30px;
+    padding-top:20px;
+    background: #F1E7E7;
+    position: absolute;
+}
+.popular>h1{
+    margin: 15px 0 25px 25px;
+}
+.popular-img>a{
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    gap: 15px;
+}
+.popular-img>a>img{
+    width: 138px;
+    height: 131px;
+    padding-right: 180px;
+    border: 4px solid#fff;
+    border-radius: 10px;
+    background: #fff;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p-one, .p-two, .p-three{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-one{
+    margin-left: 150px;
+    position: absolute;
+}
+.p-two{
+    margin: 170px 0 0 150px;
+    position: absolute;
+}
+.p-three{
+    margin: 325px 0 0 150px;
+    position: absolute;
+}
+span {
+    width: 10px;
+    height: 0; 
+    font-size: 10px;   
+    margin: 0;
+    padding: 0;
+    color: dodgerblue;
+    background: #fff;
+    gap: 5px;
+}
+#gray-star{
+    color: gainsboro;
+}
+
+
+
+#Accomodations-in>h1{
+    width: 350px;
+    font-size: 23px;
+    margin: 0 0 20px 5px;
+}
+.main-page{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    top: 187%;
+    display: inline-block;
+    margin: 20px 0 0 7px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+.main-img{
+    margin-bottom: 15px;
+}
+.main-img>a{
+    display: grid;
+    grid-template-rows: repeat(6, 186px);
+    text-decoration: none;
+    color: black;
+    gap: 27px; 
+}
+.main-img>a>div>img{
+    width: 326px;
+    height: 117px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+.main-img>a>div{
+    border: 5px solid #fff;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#show-more{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 2px;
+    color: black;
+}
+
+
+
+#Activities-in h1{
+    font-size: 23px;
+    top: 403%;
+    margin-left: 18px;
+    position: absolute;
+}
+.container{
+    width: 335px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    display: grid;
+    grid-template-rows: repeat(6, 196px);
+    grid-gap: 13px;
+    margin: 5px;
+    margin: 25px 0 65px 18px;
+    position: absolute;
+    top: 409%;
+}
+.img img{
+    width: 335px;
+    height: 135px;
+    object-fit: cover;
+}
+.activities-item img{
+    border-radius: 18px 18px 0 0;
+}
+
+
+.activities-item{
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.activities-container{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    margin-bottom: 10px;
+    padding: 16px;
+}
+
+
+
+.footer-container{
+    width: 375px;
+    height: 504px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 605%;
+    display: flex;
+    flex-direction: column;
+    left:0;
+    right: 0;
+    color: black;
+    background: #F1E7E7;
+    position: absolute;
+}
+div #footer-abt{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.footer-about{
+    margin-left: -40px;
+    margin-top: -5px;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+div .footer-accomodations{
+    margin-left: 30px;
+}
+.footer-our{
+    margin-left: -40px;
+    margin-top: -5px;
+}
+.footer-assistances{
+    margin-left: 30px;
+}
+.footer-assistance{
+    margin-left: -40px;
+    margin-top: -5px;
+}
+}
